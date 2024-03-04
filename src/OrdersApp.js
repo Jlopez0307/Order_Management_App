@@ -1,9 +1,16 @@
 import React from 'react';
 
+//Navbar
+import Navbar from './components/Navbar';
+
+//Orders container
+import OrderList from './components/OrderList';
+
+
 const OrdersApp = () => {
     return (
         <>
-            <h1>Peartree Orders App</h1>
+            <OrderList/>
         </>
     )
 }
