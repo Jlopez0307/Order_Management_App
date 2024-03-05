@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import OrderList from "../components/OrderList";
 import OrderDetails from "../components/OrderDetails";
 import ErrorPage from "../components/ErrorPage";
+import Login from "../components/Login";
 
 const AllRoutes = () => {
     return (
@@ -15,6 +16,7 @@ const AllRoutes = () => {
             
             <Routes>
                 <Route path="/" element={<OrderList/>} />
+                <Route path="/login" element={<Login/>} />
 
                 <Route path="/invoices/:invoiceNum" element={<OrderDetails/>} />
 
